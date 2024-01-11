@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1704859500
+::res://::1704937476
 icon.svg::CompressedTexture2D::1505065330725794657::1704768644::1704768652::1::::<><>::
 world.gd::GDScript::-1::1704859083::0::1::::<>Node2D<>::
 world.tscn::PackedScene::4095971865712701937::1704859098::0::1::::<><>::uid://b0j4ww4l6t2kx::::res://scenes/Input Map/input_mapper.tscn<>res://world.gd

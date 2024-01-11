@@ -1,3 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1704859315
+::res://::1704936094
 icon.svg::CompressedTexture2D::5905790749763895263::1704859307::1704859316::1::::<><>::
+::res://scenes/::1704859458
+::res://scenes/Input Mapper/::1704859633
+input_mapper.tscn::PackedScene::5770166117716403766::1704859633::0::1::::<><>::res://scenes/Input Mapper/remapper.gd
+remapper.gd::GDScript::-1::1704859519::0::1::::<>Button<>::

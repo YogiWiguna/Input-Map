@@ -1,5 +1,6 @@
-[gd_scene load_steps=2 format=3 uid="uid://cohd17vg4bags"]
+[gd_scene load_steps=3 format=3 uid="uid://cohd17vg4bags"]
 
+[ext_resource type="Script" path="res://scenes/Input Mapper/input_mapper.gd" id="1_ballr"]
 [ext_resource type="Script" path="res://scenes/Input Mapper/remapper.gd" id="1_k3vs7"]
 
 [node name="InputMapper" type="Control"]
@@ -9,6 +10,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_ballr")
 
 [node name="UP" type="Button" parent="."]
 layout_mode = 0
@@ -27,19 +29,3 @@ offset_right = 672.0
 offset_bottom = 373.0
 script = ExtResource("1_k3vs7")
 action = "Down"
-
-[node name="Up" type="Label" parent="."]
-layout_mode = 0
-offset_left = 276.0
-offset_top = 175.0
-offset_right = 316.0
-offset_bottom = 198.0
-text = "Up"
-
-[node name="Down" type="Label" parent="."]
-layout_mode = 0
-offset_left = 272.0
-offset_top = 308.0
-offset_right = 317.0
-offset_bottom = 334.0
-text = "Down"

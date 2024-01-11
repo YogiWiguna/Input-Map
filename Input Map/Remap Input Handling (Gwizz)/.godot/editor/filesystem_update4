@@ -1,2 +1,3 @@
 res://scenes/Input Mapper/input_mapper.tscn
+res://scenes/Input Mapper/input_mapper.gd
 res://scenes/Input Mapper/remapper.gd

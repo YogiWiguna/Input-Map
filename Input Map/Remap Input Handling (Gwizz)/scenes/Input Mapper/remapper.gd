@@ -21,6 +21,8 @@ func _unhandled_input(event):
 		button_pressed = false
 		release_focus()
 		update_text()
+		input_mapper.keymaps[action] = event
+		input_mapper.save_keymap()
 
 func update_text():
 	text = InputMap.action_get_events(action)[0].as_text()
