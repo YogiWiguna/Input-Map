@@ -1,0 +1,33 @@
+[gd_scene load_steps=7 format=3 uid="uid://boh583qccdm6q"]
+
+[ext_resource type="Texture2D" uid="uid://dprw7iaemut6h" path="res://icon.svg" id="1_nfyqy"]
+[ext_resource type="Script" path="res://Sprite2D.gd" id="2_0oaqp"]
+
+[sub_resource type="Gradient" id="Gradient_23fte"]
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_fvcy8"]
+gradient = SubResource("Gradient_23fte")
+fill_to = Vector2(0.0275229, 0)
+
+[sub_resource type="Gradient" id="Gradient_rxf5s"]
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_0cw1g"]
+gradient = SubResource("Gradient_rxf5s")
+fill_from = Vector2(1, 0)
+
+[node name="Main" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(576, 320)
+
+[node name="TouchScreenButton" type="TouchScreenButton" parent="Camera2D"]
+position = Vector2(-198, -61)
+scale = Vector2(0.75, 0.453125)
+texture_normal = SubResource("GradientTexture2D_fvcy8")
+texture_pressed = SubResource("GradientTexture2D_0cw1g")
+action = "rotate"
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(290, 176)
+texture = ExtResource("1_nfyqy")
+script = ExtResource("2_0oaqp")
