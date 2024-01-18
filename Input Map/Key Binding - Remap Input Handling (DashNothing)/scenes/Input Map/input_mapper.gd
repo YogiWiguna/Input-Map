@@ -101,6 +101,11 @@ func _input(event):
 			print("Add event: ", action_to_remap,event)
 			print("Update event: ", remapping_button, event)
 			
+			## Save with the update parameters ( I think for now)
+			
+			
+			
+			
 			# Set the is_remaping into false again 
 			is_remapping = false
 			# Set the action_to_remap into null
@@ -112,7 +117,9 @@ func _input(event):
 			# it stops propagating
 			accept_event()
 
+# Update the button when changing
 func _update_action_lists(button, event):
+	# Update the button input and the text into the event that player input
 	button.find_child("LabelInput").text = event.as_text().trim_suffix(" (Physical)")
 
 

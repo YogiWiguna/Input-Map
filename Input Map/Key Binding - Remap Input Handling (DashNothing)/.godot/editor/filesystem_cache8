@@ -1,11 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1705549559
+::res://::1705572792
 icon.svg::CompressedTexture2D::1505065330725794657::1704945766::1704945766::1::::<><>::
 world.gd::GDScript::-1::1704945766::0::1::::<>Node2D<>::
-world.tscn::PackedScene::4095971865712701937::1705549559::0::1::::<><>::uid://b0j4ww4l6t2kx::::res://scenes/Input Map/input_mapper.tscn<>res://world.gd
+world.tscn::PackedScene::4095971865712701937::1705572021::0::1::::<><>::uid://b0j4ww4l6t2kx::::res://scenes/Input Map/input_mapper.tscn<>res://world.gd
+::res://GlobalScript/::1705552182
+save.gd::GDScript::-1::1705552182::0::1::::<>Node<>::
 ::res://scenes/::1704945766
-::res://scenes/Input Button/::1705549559
-input_button.tscn::PackedScene::4783970134806566408::1705549559::0::1::::<><>::
-::res://scenes/Input Map/::1705549559
-input_mapper.gd::GDScript::-1::1705388805::0::1::::<>Control<>::
-input_mapper.tscn::PackedScene::4161522455541609471::1705549559::0::1::::<><>::res://scenes/Input Map/input_mapper.gd<>uid://cafnj3jw6xdka::::res://scenes/Input Button/input_button.tscn
+::res://scenes/Input Button/::1705572021
+input_button.tscn::PackedScene::4783970134806566408::1705572021::0::1::::<><>::
+::res://scenes/Input Map/::1705572361
+input_mapper.gd::GDScript::-1::1705572361::0::1::::<>Control<>::
+input_mapper.tscn::PackedScene::4161522455541609471::1705572361::0::1::::<><>::res://scenes/Input Map/input_mapper.gd<>uid://cafnj3jw6xdka::::res://scenes/Input Button/input_button.tscn
